@@ -24,7 +24,7 @@ import (
 var listen = flag.String("l", ":9876", "监听地址")
 
 // 更新频率(秒)
-var every = flag.Int("f", 300, "同步间隔时间(秒)")
+var every = flag.Int("f", 1800, "同步间隔时间(秒)")
 
 // 服务管理
 var serviceType = flag.String("s", "", "服务管理, 支持install, uninstall")
